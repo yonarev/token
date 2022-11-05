@@ -1,0 +1,46 @@
+DESARROLLO
+	de un sistema
+	para llevar la contablidad 
+	de las cuentas vigentes
+	obj: 
+		1/Saber el saldo actual vigente de cada cuenta
+		2/almacenar transaccion a transaccion descontando los saldos con cuentas al dia
+		3/visualizar los listados de transacciones
+		4/respaldar de localstorage a json
+		5/recuperar desde archivo json a local
+		6/almacen de datos principal en base de datos sql en server host
+		7/los archivos de la app estan en servidor
+		8/interfaz con teclas grandes para el llenado en pantalla
+		9/audointeractividad
+		
+										ENCABEZADO
+		encabezado transaccion(x)-> idTra/idNow/fecha/hora[/nombre trans/a cuenta/descripcion/
+	transaccion(x)						DETALLE
+		detalle transaccion(x)->	idTra/cantidad/item/valor/total transa /saldo inicial/saldo final
+											cantidad/item/valor/total transa /saldo inicial/saldo final
+											
+											ejem: NUTRICION DEL DIA CUENTA RUT EMPORIO ALCOGUAZ 2 MANZANAS 400 800 .... 
+									relacion transaccion 
+									
+			transacciones -> empaquetado paralelo de objetos transaccion como respaldo para arqueo cuadre y analisis		
+							[{{idtraEncabezado....}{idTraDetalle...}},{{},{}},......]
+							
+			cuentas 	-> idCue/idNow/fecha/hora/nombre cuenta/saldo inicial/saldo actual   
+									//registro paralelo de los saldos de las cuentas
+							
+									ejm: CUENTA RUT $10000 , CUENTA MATCH $1000
+
+23:16 04-11-2022
+AVANCE INICIAL	
+	creado sitio host
+		https://elkizen.000webhostapp.com/token/
+	creada carpeta token en servidor
+	archivos:
+		index.html
+		index.js
+		index.css
+		guion.txt
+		
+		DESPLEGANDO guin.EN LA PAGINA CON AJAX
+		
+	
