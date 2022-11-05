@@ -44,8 +44,18 @@ AVANCE INICIAL
 		DESPLEGANDO guion.txt EN LA PAGINA CON AJAX //ok
 		
 RESPALDANDO EN GIT
-	git init
-	git add .
+https://github.com/yonarev?tab=repositories
+	git init  //ok
+	git add . //ok
+	git status //ok
+	git status -s
+	git diff  //ve el cont modificado 
+	git diff --cached //exactamente los cambios que se han realizado dentro de los archivos
+	git diff --stat //sumario
+	git commit -m "Mis nuevos cambios"
+	git config --global user.name "Mi nombre"
+git config --global user.email "jorgeveravidela"
+	
 	git commit -m 'primer commit de la app TOKEN  LabEstudio'
 	git remote add origin https://github.com/yonarev.git
 	git push -u origin master

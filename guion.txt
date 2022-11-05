@@ -45,8 +45,18 @@ AVANCE INICIAL
 		
 RESPALDANDO EN GIT
 https://github.com/yonarev?tab=repositories
-	git init
-	git add .
+	git init  //ok
+	git add . //ok
+	git status //ok
+	git status -s
+	git diff  //ve el cont modificado 
+	git diff --cached //exactamente los cambios que se han realizado dentro de los archivos
+	git diff --stat //sumario
+	git commit -m "Mis nuevos cambios"
+	git commit -am "Nuevos cambios"
+	git config --global user.name "JanVera"
+	git config --global user.email "jorgeveravidela@gmail.com"
+	
 	git commit -m 'primer commit de la app TOKEN  LabEstudio'
 	git remote add origin https://github.com/yonarev.git
 	git push -u origin master
