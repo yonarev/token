@@ -43,7 +43,7 @@ AVANCE INICIAL
 		
 		DESPLEGANDO guion.txt EN LA PAGINA CON AJAX //ok
 		
-RESPALDANDO EN GIT
+RESPALDANDO EN GIT //ok
 https://github.com/yonarev?tab=repositories
 https://www.hostinger.es/tutoriales/comandos-de-git
 
@@ -57,17 +57,21 @@ or create a new repository on the command line
 	git branch -M main
 	git remote add origin https://github.com/yonarev/token.git
 	git push -u origin main
-	
+	(git remote set-url origin https://github.com/yonarev/token.git)
+	git remote -v
 …push an existing repository from the command line
 	git remote add origin https://github.com/yonarev/token.git
 	git branch -M main
 	git push -u origin main
 -------------------------------------------
-
+	git commit -m "Mis nuevos cambios"
+	git branch -M main
+	git push -u origin main
+--------------------------------
 	git init  //ok
 	git add . //ok
 	git status //ok
-	git status -s
+	git status -s //ok
 	git diff  //ve el cont modificado 
 	git diff --cached //exactamente los cambios que se han realizado dentro de los archivos
 	git diff --stat //sumario
@@ -77,7 +81,6 @@ or create a new repository on the command line
 	git config --global user.email "jorgeveravidela@gmail.com"
 	git reset  //Deshacer cambios en el área de ensayo y en el historial, git reset
 	git reset --hard // desde el último commit se eliminen de la lista del área de ensayo.
-	git stash list
 	
 	git remote add origin https://github.com/yonarev.git
-	git push -u origin master
+	git push -u origin main
